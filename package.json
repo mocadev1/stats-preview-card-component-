@@ -1,0 +1,17 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "author": "Omar Beltran",
+  "license": "MIT",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel "
+  },
+
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "parcel": "^2.1.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.11"
+  }
+}
