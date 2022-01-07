@@ -384,6 +384,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+
+  .container{
+    max-width: 1536px;
+  }
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -488,6 +527,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[87\%\]{
   width: 87%;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .grow{
@@ -657,5 +700,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-desaturated-blue{
+  --tw-text-opacity: 1;
+  color: rgb(28 25 54 / var(--tw-text-opacity));
+}
+
+.text-pink-500{
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.hover\:text-purple-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(216 180 254 / var(--tw-text-opacity));
+}
+
+.hover\:text-purple-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.hover\:text-pink-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.hover\:text-purple-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 /*# sourceMappingURL=index.3b30eb03.css.map */
