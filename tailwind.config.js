@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         'dark-blue': '#0A0C1A',
         'desaturated-blue': '#1C1936',
-        'soft-violet-main': '#9A5EBE'
+        'soft-violet': '#9A5EBE'
       },
       fontFamily: {
         'iter': ['Inter', 'sans-serif;'],

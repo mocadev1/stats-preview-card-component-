@@ -389,20 +389,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
 .mt-10{
   margin-top: 2.5rem;
 }
 
-.w-4\/5{
-  width: 80%;
-}
-
-.w-\[90\%\]{
-  width: 90%;
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .w-\[85\%\]{
@@ -411,14 +403,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grow{
   flex-grow: 1;
-}
-
-.overflow-hidden{
-  overflow: hidden;
-}
-
-.rounded-2xl{
-  border-radius: 1rem;
 }
 
 .rounded-lg{
@@ -440,8 +424,65 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(28 25 54 / var(--tw-bg-opacity));
 }
 
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-deca{
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-soft-violet{
+  --tw-text-opacity: 1;
+  color: rgb(154 94 190 / var(--tw-text-opacity));
+}
+
+.text-purple-400{
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.text-purple-600{
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity));
+}
+
+.text-purple-500{
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 /*# sourceMappingURL=index.3b30eb03.css.map */
