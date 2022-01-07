@@ -8,7 +8,7 @@ module.exports = {
         'soft-violet': '#9A5EBE'
       },
       fontFamily: {
-        'iter': ['Inter', 'sans-serif;'],
+        'inter': ['Inter', 'sans-serif;'],
         'deca': ['"Lexend Deca"', 'sans-serif']
       }
     },
