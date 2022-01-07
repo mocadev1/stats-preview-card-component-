@@ -18,8 +18,9 @@
 # node_modules
 node_modules/
 
-# Parcel dist
-dist/
+# Parcel cache
+.parcel-cache/
+
 
 # README template
 README*.md
